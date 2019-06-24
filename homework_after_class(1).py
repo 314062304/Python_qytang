@@ -5,7 +5,7 @@ department2 = 'Python'
 depart1_m = 'cq_bomb'
 depart2_m = 'liang'
 COURSE_FEES_SEC = 16666.88888
-COURSE_FEES_liang  = 2415.999
+COURSE_FEES_liang = 2415.999
 
 # 传统技术
 # line1 = 'Department1 name:%-8s Manager:%-9s COURSE FEES:%-10.3f The End!' % (department1, depart1_m, COURSE_FEES_SEC)
