@@ -2,7 +2,8 @@
 import re
 str1 = '166 54a2.74f7.0326 DYNAMIC Gi1/0/11'
 
-result = re.match('\s*(\w*)\s+(\w.*\d{1,4})\s+(\w*)\s+(\w*[^a]\w*[^a]\w*)\s*', str1).groups()
+# result = re.match('\s*(\w*)\s+(\w.*\d{1,4})\s+(\w*)\s+(\w*[^a]\w*[^a]\w*)\s*', str1).groups()
+result = re.match('\s*(\w*)\s+(\w.*\d{1,4})\s+(\w*)\s+(\w.*)\s*', str1).groups()
 
 print(result)
 print('-'*80)
